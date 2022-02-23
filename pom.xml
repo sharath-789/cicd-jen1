@@ -41,9 +41,7 @@
             <workerType>${vCore}</workerType>
             <workers>${workers}</workers>
             <objectStoreV2>true</objectStoreV2>
-            <properties>
-        <http.port>8082</http.port>
-      </properties>
+           
         </cloudHubDeployment>
     </configuration>
 			</plugin>

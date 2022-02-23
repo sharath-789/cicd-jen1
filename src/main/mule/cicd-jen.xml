@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="70027149-9105-4e80-9d32-991ca23dc003" >
-		<http:listener-connection host="0.0.0.0" port="8082" />
+		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="cicd-jenFlow" doc:id="97de6cf2-a8f7-400b-b432-fa6663a76263" >
 		<http:listener doc:name="Listener" doc:id="fb526adc-7ef5-470b-8f56-70e35dcac138" config-ref="HTTP_Listener_config" path="/hi"/>
